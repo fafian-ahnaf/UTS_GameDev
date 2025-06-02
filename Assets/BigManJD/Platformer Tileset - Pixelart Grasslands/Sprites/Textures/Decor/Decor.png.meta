@@ -3,7 +3,7 @@ guid: 198c5cf9dad20144995fd44cf395c218
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -112,6 +113,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -119,12 +132,12 @@ TextureImporter:
       name: Decor_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 11
         y: 72
-        width: 16
+        width: 10
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -140,12 +153,12 @@ TextureImporter:
       name: Decor_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 33
         y: 72
-        width: 16
-        height: 16
+        width: 14
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,10 +176,10 @@ TextureImporter:
         serializedVersion: 2
         x: 56
         y: 72
-        width: 16
-        height: 16
+        width: 15
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,10 +197,10 @@ TextureImporter:
         serializedVersion: 2
         x: 80
         y: 72
-        width: 8
+        width: 24
         height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -203,12 +216,12 @@ TextureImporter:
       name: Decor_4
       rect:
         serializedVersion: 2
-        x: 96
-        y: 72
-        width: 8
-        height: 8
+        x: 2
+        y: 8
+        width: 27
+        height: 51
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -224,12 +237,12 @@ TextureImporter:
       name: Decor_5
       rect:
         serializedVersion: 2
-        x: 0
+        x: 35
         y: 8
-        width: 32
-        height: 56
+        width: 35
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -245,12 +258,12 @@ TextureImporter:
       name: Decor_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 8
-        width: 40
-        height: 48
+        x: 80
+        y: 32
+        width: 15
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,11 +280,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 32
-        width: 16
-        height: 16
+        y: 8
+        width: 24
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,27 +292,6 @@ TextureImporter:
       bones: []
       spriteID: 0c0097fbcd87d3149b24a24a73b2e1ca
       internalID: 625698662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Decor_8
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 8
-        width: 24
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06540ad7ef60757449395142ecd7b034
-      internalID: -607116252
       vertices: []
       indices: 
       edges: []
@@ -315,15 +307,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Decor_7: 625698662
-      Decor_3: -554979022
       Decor_0: 352713682
-      Decor_2: -1244265684
-      Decor_8: -607116252
-      Decor_5: -1067534915
       Decor_1: -1723509321
-      Decor_6: 325617990
+      Decor_2: -1244265684
+      Decor_3: -554979022
       Decor_4: -1784656370
+      Decor_5: -1067534915
+      Decor_6: 325617990
+      Decor_7: 625698662
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
